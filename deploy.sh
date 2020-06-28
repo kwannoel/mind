@@ -2,26 +2,25 @@
 set -euo pipefail
 
 # Generate pages
-mkdir _site
-neuron rib -o _site
+neuron rib
 
 # Initiate deploy environment
 mkdir .deploy
 cd .deploy
 git init
 git remote add origin git@github.com:kwannoel/mind.git
-git pull -r origin site
+git checkout --track -b gh-pages
+git pull -r origin gh-pages # First deployment: comment out this line
 
 # Sync the site updated pages
-rsync -a ../_site/ .
+rsync -a ../.neuron/output .
 
 # Commit the sync
 git add .
-read -p 'Enter commit message: ' commitMsg
-git commit -m "$commitMsg"
-git push origin site
+git commit -m "Publish"
+git push origin gh-pages
 
 # Cleanup
 cd ..
-rm -rf _site
-rm -rf .deploy
+rm -rf .neuron/
+rm -rf .deploy/
