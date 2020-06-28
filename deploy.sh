@@ -14,6 +14,7 @@ git pull -r origin gh-pages # First deployment: comment out this line
 
 # Sync the site updated pages
 rsync -a ../.neuron/output/ .
+rm README.html
 
 # Commit the sync
 git add .
