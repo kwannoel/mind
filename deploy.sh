@@ -22,5 +22,5 @@ git push origin gh-pages
 
 # Cleanup
 cd ..
-rm -rf .neuron/
-rm -rf .deploy/
+rm -rf .neuron
+rm -rf .deploy
