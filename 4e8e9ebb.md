@@ -56,6 +56,6 @@ Some examples:
 - <370e62ed> (I can do both!)
 
 References:
-[[https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/]]
-[[https://wiki.haskell.org/Monad_laws]]
-[[http://dev.stephendiehl.com/hask/#eightfold-path-to-monad-satori]]
+[Bartosz milewski - Monads](https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/)
+[Haskell wiki - Monad laws](https://wiki.haskell.org/Monad_laws)
+[Stephen Diehl - Eightfold path to monad satori](http://dev.stephendiehl.com/hask/#eightfold-path-to-monad-satori)
