@@ -24,8 +24,6 @@ A way to gain intuition if something is a monad is to gain intuition for these l
 
 Recognize if a type follows these laws.
 
-They scope monadic laws to the context of Haskell.
-
 Let's see some of the things that `Monads` allow us to do:
 
 It allows us to wrap some value, `a` within a monadic context:
@@ -58,6 +56,6 @@ Some examples:
 - <370e62ed> (I can do both!)
 
 References:
-https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/
-https://wiki.haskell.org/Monad_laws
-http://dev.stephendiehl.com/hask/#eightfold-path-to-monad-satori
+[[https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/]]
+[[https://wiki.haskell.org/Monad_laws]]
+[[http://dev.stephendiehl.com/hask/#eightfold-path-to-monad-satori]]
