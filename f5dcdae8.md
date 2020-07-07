@@ -23,3 +23,4 @@ We can use `--package-env` flag to avoid conflicts with other installed packages
 References:
 - [Cabal documentation](https://cabal.readthedocs.io/en/latest/cabal-commands.html#cabal-v2-install)
 - [Agda documentation](https://agda.readthedocs.io/en/v2.6.1/getting-started/installation.html)
+  
