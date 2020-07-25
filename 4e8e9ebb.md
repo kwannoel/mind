@@ -38,7 +38,7 @@ It allows us to compose functions which return values wrapped in monadic context
 (>=>) :: (a -> m b) -> (b -> m c) -> (a -> m c)
 ```
 
-It allows us to combine contexts.
+It allows us to collapse contexts.
 ```hs
 join :: m (m a) -> m a
 ```
