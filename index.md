@@ -15,4 +15,4 @@ My previous [blog](https://kwannoel.github.io/thoughts/) (May eventually port th
 
 You can reach me at kwanzknoel `[at]` gmail `[dot]` com.
 
-You can also find me on [LinkedIn](https://www.linkedin.com/in/noel-kwan-17484b119/)
+You can also find me on [Github](https://github.com/kwannoel) and [LinkedIn](https://www.linkedin.com/in/noel-kwan-17484b119/).
