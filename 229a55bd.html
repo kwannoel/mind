@@ -68,7 +68,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <span class="">  </span><span class="kw">where</span>
 <span class="ot">    run ::</span><span class=""> (([a] </span><span class="ot">-&gt;</span><span class=""> [a]) </span><span class="ot">-&gt;</span><span class=""> [a]) </span><span class="ot">-&gt;</span><span class=""> [a] </span><span class="ot">-&gt;</span><span class=""> [a]</span>
 <span class="">    run c []     </span><span class="ot">=</span><span class=""> c </span><span class="fu">id</span><span class=""> </span><span class="co">-- If list is fully consumed, return the reversed list</span>
-<span class="">    run c (x</span><span class="op">:</span><span class="">xs) </span><span class="ot">=</span><span class=""> run (cont (c (x</span><span class="op">:</span><span class="">))) xs</span>
+<span class="">    run c (x</span><span class="op">:</span><span class="">xs) </span><span class="ot">=</span><span class=""> run c&#39; xs</span>
+<span class="">      </span><span class="kw">where</span>
+<span class="">        c&#39; </span><span class="ot">=</span><span class=""> cont </span><span class="op">$</span><span class=""> c f</span>
+<span class="">        f </span><span class="ot">=</span><span class=""> (x </span><span class="op">:</span><span class="">)</span>
 
 <span class="ot">    cont ::</span><span class=""> [a]               </span><span class="co">-- ^ consumes a list</span>
 <span class="">         </span><span class="ot">-&gt;</span><span class=""> ([a] </span><span class="ot">-&gt;</span><span class=""> [a])      </span><span class="co">-- ^ Continuation on the reversed list produced</span>
