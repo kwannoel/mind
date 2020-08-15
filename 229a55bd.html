@@ -64,19 +64,17 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <span class="kw">import</span><span class="">           </span><span class="dt">Prelude</span><span class=""> </span><span class="kw">hiding</span><span class=""> (reverse)</span>
 
 <span class="fu">reverse</span><span class="ot"> ::</span><span class=""> [a] </span><span class="ot">-&gt;</span><span class=""> [a]</span>
-<span class="fu">reverse</span><span class=""> ls </span><span class="ot">=</span><span class=""> run (cont []) ls</span>
+<span class="fu">reverse</span><span class=""> ls </span><span class="ot">=</span><span class=""> run kInit ls</span>
 <span class="">  </span><span class="kw">where</span>
-<span class="ot">    run ::</span><span class=""> (([a] </span><span class="ot">-&gt;</span><span class=""> [a]) </span><span class="ot">-&gt;</span><span class=""> [a]) </span><span class="ot">-&gt;</span><span class=""> [a] </span><span class="ot">-&gt;</span><span class=""> [a]</span>
-<span class="">    run c []     </span><span class="ot">=</span><span class=""> c </span><span class="fu">id</span><span class=""> </span><span class="co">-- If list is fully consumed, return the reversed list</span>
-<span class="">    run c (x</span><span class="op">:</span><span class="">xs) </span><span class="ot">=</span><span class=""> run c&#39; xs</span>
-<span class="">      </span><span class="kw">where</span>
-<span class="">        c&#39; </span><span class="ot">=</span><span class=""> cont </span><span class="op">$</span><span class=""> c f</span>
-<span class="">        f </span><span class="ot">=</span><span class=""> (x </span><span class="op">:</span><span class="">)</span>
+<span class="ot">    kInit ::</span><span class=""> ([a] </span><span class="ot">-&gt;</span><span class=""> [a]) </span><span class="ot">-&gt;</span><span class=""> [a]</span>
+<span class="">    kInit f </span><span class="ot">=</span><span class=""> f []</span>
 
-<span class="ot">    cont ::</span><span class=""> [a]               </span><span class="co">-- ^ consumes a list</span>
-<span class="">         </span><span class="ot">-&gt;</span><span class=""> ([a] </span><span class="ot">-&gt;</span><span class=""> [a])      </span><span class="co">-- ^ Continuation on the reversed list produced</span>
-<span class="">         </span><span class="ot">-&gt;</span><span class=""> [a]</span>
-<span class="">    cont x f </span><span class="ot">=</span><span class=""> f x</span>
+<span class="ot">    run ::</span><span class=""> (([a] </span><span class="ot">-&gt;</span><span class=""> [a]) </span><span class="ot">-&gt;</span><span class=""> [a])</span>
+<span class="">        </span><span class="ot">-&gt;</span><span class=""> [a]</span>
+<span class="">        </span><span class="ot">-&gt;</span><span class=""> [a]</span>
+<span class="">    run k []        </span><span class="ot">=</span><span class=""> k </span><span class="fu">id</span>
+<span class="">    run k (x </span><span class="op">:</span><span class=""> xs&#39;) </span><span class="ot">=</span><span class=""> run (</span><span class="op">$</span><span class=""> k (x </span><span class="op">:</span><span class="">)) xs&#39;</span>
+
 
 <span class="ot">main ::</span><span class=""> </span><span class="dt">IO</span><span class=""> ()</span>
 <span class="">main </span><span class="ot">=</span><span class=""> </span><span class="fu">print</span><span class=""> </span><span class="op">$</span><span class=""> </span><span class="fu">reverse</span><span class=""> ([</span><span class="dv">1</span><span class="op">..</span><span class="dv">10</span><span class="">]</span><span class="ot"> ::</span><span class=""> [</span><span class="dt">Int</span><span class="">])</span>
