@@ -28,3 +28,17 @@ Analysis refers to prediction without having to run the algorithm
 <fc20e943>
 
 <72f5bb77>
+
+<29f8a8f3>
+
+<39bb38e4>
+
+<c95f2c9c>
+
+<0d6a9713>
+
+<258f412e>
+
+<6c53ddc4>
+
+<4d470b10>
