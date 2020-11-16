@@ -11,7 +11,7 @@ I transfer knowledge I have here.
 
 - [previous blog](https://kwannoel.github.io/thoughts/)
 
-- [AI powered blogpost recommendation feed](<e4816443>)
+- <e4816443>
 
 ### Contact
 
