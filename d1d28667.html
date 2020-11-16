@@ -67,7 +67,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
     (else #u)))
     
 ;; evaluates to (olive)</code></pre></div><p>We want all possible values of <code class="" id="">q</code> however:</p><div class="pandoc-code nosyntax"><pre><code class="elisp" id="">(run (q)
-  (cond
+  (conde
     (#s (== olive q)) ;; First branch matches
     (#s (== fire q))
     (else #u)))
