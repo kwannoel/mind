@@ -7,9 +7,11 @@ Welcome!
 
 I transfer knowledge I have here.
 
-Blogposts can be found under the [blog](https://kwannoel.xyz/search.html?tag=blog) tag.
+- [blog](https://kwannoel.xyz/search.html?tag=blog)
 
-My previous [blog](https://kwannoel.github.io/thoughts/) (May eventually port these over as well).
+- [previous blog](https://kwannoel.github.io/thoughts/)
+
+- [AI powered blogpost recommendation feed](<e4816443>)
 
 ### Contact
 
