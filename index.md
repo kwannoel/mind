@@ -13,6 +13,8 @@ I transfer knowledge I have here.
 
 - <e4816443>
 
+- [knowledge base](https://kwannoel.xyz/search.html)
+
 ### Contact
 
 You can reach me at kwanzknoel `[at]` gmail `[dot]` com.
