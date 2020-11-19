@@ -15,6 +15,8 @@ I transfer knowledge I have here.
 
 - [knowledge base](https://kwannoel.xyz/search.html)
 
+- <a1d8fd5e> 
+
 ### Contact
 
 You can reach me at kwanzknoel `[at]` gmail `[dot]` com.

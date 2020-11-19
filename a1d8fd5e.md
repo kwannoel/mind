@@ -4,6 +4,22 @@ tags:
   - blogs
 ---
 
-# My favourite blogs
+# My favourite blogs / feeds
 
 - [Alexis King](https://lexi-lambda.github.io/)
+
+- [Mark Karpov](https://markkarpov.com/)
+
+- [Aphyr](https://aphyr.com/posts)
+
+# Aggregators
+
+- [Haskell weekly](https://haskellweekly.news/)
+
+- [This week in Rust](https://this-week-in-rust.org/)
+
+- [Hacker News](https://news.ycombinator.com/)
+
+- [Haskell Reddit](https://www.reddit.com/r/haskell/)
+
+- [Rust Reddit](https://www.reddit.com/r/rust/)
