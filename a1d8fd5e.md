@@ -12,6 +12,10 @@ tags:
 
 - [Aphyr](https://aphyr.com/posts)
 
+- [https://blog.jle.im/](https://blog.jle.im/)
+
+- [Murat Kasimov](https://iokasimov.github.io/year-archive/)
+
 # Aggregators
 
 - [Haskell weekly](https://haskellweekly.news/)

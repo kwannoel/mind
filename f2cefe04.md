@@ -10,6 +10,8 @@ tags:
 
 Take Read data 1 (RD1) and Read data 2 (RD2),
 
+These are 32-bit signed, (1-word)
+
 perform the operation on them, return:
 
 1. result 
