@@ -5,19 +5,21 @@ date: "2020-06-28"
 
 Welcome! 
 
-I transfer knowledge I have here.
+I write things down here :)
 
-- [blog](https://kwannoel.xyz/search.html?tag=blog)
+- [**blog**](https://kwannoel.xyz/search.html?tag=blog)
 
-- [previous blog](https://kwannoel.github.io/thoughts/)
+- [**previous blog**](https://kwannoel.github.io/thoughts/)
 
 - <e4816443>
 
 - <e066dc7f> 
 
-- [knowledge base](https://kwannoel.xyz/search.html)
+- [**knowledge base**](https://kwannoel.xyz/search.html)
 
 - <a1d8fd5e> 
+
+- <f2beeaf4> 
 
 ### Contact
 
