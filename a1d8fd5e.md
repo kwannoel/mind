@@ -27,3 +27,5 @@ tags:
 - [Haskell Reddit](https://www.reddit.com/r/haskell/)
 
 - [Rust Reddit](https://www.reddit.com/r/rust/)
+
+- [Planet Haskell](http://planet.haskell.org/)
