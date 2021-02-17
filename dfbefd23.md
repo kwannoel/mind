@@ -4,5 +4,12 @@ tags:
   - stub
 ---
 
-# Operating Process Coordination
+# Operating Process Communication
 
+<44e351f5>
+
+<410f9bf1>
+
+<bce70b7e>
+
+<5c986109>
