@@ -16,6 +16,8 @@ tags:
 
 - [Murat Kasimov](https://iokasimov.github.io/year-archive/)
 
+- [Stephen Diehl](https://www.stephendiehl.com/)
+
 # Aggregators
 
 - [Haskell weekly](https://haskellweekly.news/)

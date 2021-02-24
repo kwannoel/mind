@@ -13,3 +13,9 @@ tags:
 <bce70b7e>
 
 <5c986109>
+
+# Difficulties
+
+Independent memory space, no easy way to pass info.
+
+Requires inter-process communication (IPC)

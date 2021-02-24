@@ -13,7 +13,7 @@ After asking for some advice, I had some insight regarding this.
 
 ### Pros
 
-- You make more money
+- You make more money (now)
 
 - Industry experience
 
@@ -27,4 +27,4 @@ After asking for some advice, I had some insight regarding this.
 
 - You learn certain things at school, much harder outside to learn these
 
-  For example: learning about hardware, how computers work
+  For example: learning about hardware, how computers work, networking, other core CS concepts.
