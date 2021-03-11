@@ -60,27 +60,37 @@ code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
 code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-</style></head><body><div class="ui fluid container" id="neuron-theme-default-brown"><nav class="top-menu"><div class="ui inverted compact neuron icon menu brown"><a class="left item" href="." title="Home"><i class="home icon"></i></a><a class="left item" href="search.html" title="Search Zettels"><i class="search icon"></i></a><a class="center item" href="https://github.com/kwannoel/mind/edit/master/7e2bf475.md" title="Edit this Zettel"><i class="edit icon"></i></a><a class="right item" href="z-index.html" title="All Zettels (z-index)"><i class="tree icon"></i></a></div></nav><nav class="flipped tree deemphasized" id="zettel-uptree" style="transform-origin: 50%"><ul class="root"><li><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" data-inverted="" data-position="right center" data-tooltip="Tags: stub"><a href="0e893e10.html">Readers Writers</a></span></span></div><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" data-inverted="" data-position="right center" data-tooltip="Tags: stub"><a href="9facc0a7.html">Operating systems synchronization</a></span></span></div><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" data-inverted="" data-position="right center" data-tooltip="Tags: Computer Science"><a href="e95d8a14.html">CS2106</a></span></span></div></li></ul></li></ul></li></ul></li></ul></nav><div class="ui text container" id="zettel-container" style="position: relative"><div id="zettel-container-anchor" style="position: absolute; top: -24px; left: 0"></div><div class="zettel-view"><article class="ui raised attached segment zettel-content"><div class="pandoc"><h1 id="readers-writers-simple-version">Readers Writers: Simple Version</h1><div class="pandoc-code nosyntax"><pre><code>roomEmpty = S(1)
-mutex = S(1)
-nReader = 0</code></pre></div><p><code>writer</code></p><div class="pandoc-code highlighted"><pre><code class="c"><span class="cf">while</span><span class=""> (True) {</span>
+</style></head><body><div class="ui fluid container" id="neuron-theme-default-brown"><nav class="top-menu"><div class="ui inverted compact neuron icon menu brown"><a class="left item" href="." title="Home"><i class="home icon"></i></a><a class="left item" href="search.html" title="Search Zettels"><i class="search icon"></i></a><a class="center item" href="https://github.com/kwannoel/mind/edit/master/7e2bf475.md" title="Edit this Zettel"><i class="edit icon"></i></a><a class="right item" href="z-index.html" title="All Zettels (z-index)"><i class="tree icon"></i></a></div></nav><nav class="flipped tree deemphasized" id="zettel-uptree" style="transform-origin: 50%"><ul class="root"><li><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" data-inverted="" data-position="right center" data-tooltip="Tags: stub"><a href="0e893e10.html">Readers Writers</a></span></span></div><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" data-inverted="" data-position="right center" data-tooltip="Tags: stub"><a href="9facc0a7.html">Operating systems synchronization</a></span></span></div><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" data-inverted="" data-position="right center" data-tooltip="Tags: Computer Science"><a href="e95d8a14.html">CS2106</a></span></span></div></li></ul></li></ul></li></ul></li></ul></nav><div class="ui text container" id="zettel-container" style="position: relative"><div id="zettel-container-anchor" style="position: absolute; top: -24px; left: 0"></div><div class="zettel-view"><article class="ui raised attached segment zettel-content"><div class="pandoc"><h1 id="readers-writers-simple-version">Readers Writers: Simple Version</h1><div class="pandoc-code highlighted"><pre><code class="c"><span class="">roomEmpty = S(</span><span class="dv">1</span><span class="">)</span>
+<span class="">mutex = S(</span><span class="dv">1</span><span class="">) </span><span class="co">// </span>
+<span class="">nReader = </span><span class="dv">0</span><span class=""> </span><span class="co">// Tracks the number of readers</span>
+</code></pre></div><p><code>writer</code></p><div class="pandoc-code highlighted"><pre><code class="c"><span class="cf">while</span><span class=""> (True) {</span>
 <span class="">  wait(roomEmpty);</span>
 <span class="">  </span><span class="co">// modify data</span>
 <span class="">  signal(roomEmpty);</span>
 <span class="">}</span>
 </code></pre></div><p><code>reader</code></p><div class="pandoc-code highlighted"><pre><code class="c"><span class="cf">while</span><span class=""> (True) {</span>
-<span class="">  wait(mutex);</span>
-<span class="">  nReader++;</span>
-<span class="">  </span><span class="cf">if</span><span class=""> (nReader == </span><span class="dv">1</span><span class="">) {</span>
-<span class="">    wait(roomEmpty);</span>
+<span class="">  wait(mutex); </span><span class="co">// Prevent race condition between other readers, next section is critical section.</span>
+<span class="">  </span><span class="co">// CS </span><span class="re">BEGIN</span>
+
+<span class="">  nReader++; </span><span class="co">// Indicate you are try to enter critical section</span>
+<span class="">  </span><span class="cf">if</span><span class=""> (nReader == </span><span class="dv">1</span><span class="">) { </span><span class="co">// If you are the first reader,</span>
+<span class="">    wait(roomEmpty); </span><span class="co">// Lock the resource from writers</span>
 <span class="">  }</span>
+<span class="">  </span>
+<span class="">  </span><span class="co">// CS </span><span class="re">END</span>
 <span class="">  signal(mutex);</span>
 <span class="">  </span>
-<span class="">  </span><span class="co">// Reads data</span>
+<span class="">  </span><span class="co">// &lt;Read data&gt;</span>
+
 <span class="">  wait(mutex);</span>
-<span class="">  nReader--;</span>
-<span class="">  </span><span class="cf">if</span><span class=""> (nReader == </span><span class="dv">0</span><span class="">) {</span>
-<span class="">    signal(roomEmpty);</span>
+<span class="">  </span><span class="co">// CS </span><span class="re">BEGIN</span>
+
+<span class="">  nReader--; </span><span class="co">// Once you are done reading,</span>
+<span class="">  </span><span class="cf">if</span><span class=""> (nReader == </span><span class="dv">0</span><span class="">) { </span><span class="co">// If you are last reader, you can exit</span>
+<span class="">    signal(roomEmpty); </span><span class="co">// Unlock if you are the last reader</span>
 <span class="">  }</span>
+<span class="">  </span>
+<span class="">  </span><span class="co">// CS </span><span class="re">END</span>
 <span class="">  signal(mutex);</span>
 <span class="">}</span>
-</code></pre></div></div><div class="metadata"><div class="date" title="Zettel date"><time datetime="2021-03-10T19:44">2021-03-10</time></div></div></article><nav class="ui bottom attached segment deemphasized"><div class="ui two column grid"><div class="column"></div><div class="column"><span class="ui right ribbon label zettel-tag" title="Tag"><a class="tag-inner" href="search.html?tag=stub" title="See all zettels tagged &#39;stub&#39;">stub</a></span><p></p></div></div></nav></div></div><script>if (window.scrollY == 0) { document.getElementById("zettel-container-anchor").scrollIntoView({behavior: "smooth", block: "start"}); }</script><div class="ui one column grid footer-version"><div class="center aligned column"><div class="ui tiny image"><a href="https://neuron.zettel.page"><img alt="logo" src="https://raw.githubusercontent.com/srid/neuron/master/assets/neuron.svg" title="Generated by Neuron" /></a></div></div></div></div></body></html>
+</code></pre></div><p>Shortcoming: <strong>starvation</strong></p><p>If many readers access the data structure, the writer ends up getting locked out.</p><p>Updated resource: <a href="https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem">Readers, Writers</a></p></div><div class="metadata"><div class="date" title="Zettel date"><time datetime="2021-03-10T19:44">2021-03-10</time></div></div></article><nav class="ui bottom attached segment deemphasized"><div class="ui two column grid"><div class="column"></div><div class="column"><span class="ui right ribbon label zettel-tag" title="Tag"><a class="tag-inner" href="search.html?tag=stub" title="See all zettels tagged &#39;stub&#39;">stub</a></span><p></p></div></div></nav></div></div><script>if (window.scrollY == 0) { document.getElementById("zettel-container-anchor").scrollIntoView({behavior: "smooth", block: "start"}); }</script><div class="ui one column grid footer-version"><div class="center aligned column"><div class="ui tiny image"><a href="https://neuron.zettel.page"><img alt="logo" src="https://raw.githubusercontent.com/srid/neuron/master/assets/neuron.svg" title="Generated by Neuron" /></a></div></div></div></div></body></html>
