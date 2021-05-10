@@ -18,6 +18,12 @@ tags:
 
 - [Stephen Diehl](https://www.stephendiehl.com/)
 
+- [https://vaibhavsagar.com/](https://vaibhavsagar.com/)
+
+- [teamten](https://www.teamten.com)
+
+  Very interesting and insightful blogposts. Can't recommend enough.
+
 # Aggregators
 
 - [Haskell weekly](https://haskellweekly.news/)
