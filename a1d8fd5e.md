@@ -23,6 +23,10 @@ tags:
 - [teamten](https://www.teamten.com)
 
   Very interesting and insightful blogposts. Can't recommend enough.
+  
+- [Matt Might](https://matt.might.net/articles/)
+
+  Programming languages and more. Very insightful posts.
 
 # Aggregators
 
