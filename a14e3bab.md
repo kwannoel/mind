@@ -4,5 +4,5 @@ tags:
   - stub
 ---
 
-# How do we mint tokens in Plutus?
+# How do we mint / burn tokens in Plutus?
 

@@ -6,6 +6,16 @@ tags:
 
 # My favourite blogs / feeds
 
+- [Contrarian Thinking](https://contrarianthinking.co/blog/)
+
+- [Cold Takes](https://www.cold-takes.com/summary-of-history-empowerment-and-well-being-lens/)
+
+- [Dan Luu](http://danluu.com/)
+
+- [Eli Dourado](https://elidourado.com/blog/)
+
+- [Daring Fireball](https://daringfireball.net/)
+
 - [Alexis King](https://lexi-lambda.github.io/)
 
 - [Mark Karpov](https://markkarpov.com/)
@@ -27,6 +37,14 @@ tags:
 - [Matt Might](https://matt.might.net/articles/)
 
   Programming languages and more. Very insightful posts.
+  
+- [Flameeyes](https://flameeyes.blog/2008/01/21/what-to-do-with-shared-code/)
+
+- [Palaiologos - Esolangs / Math / CS](https://kamila.akagi.moe/)
+
+- [Michael Peyton Jones](https://www.michaelpj.com/blog/2021/01/02/elementary-programming.html)
+
+- [Antirez](http://antirez.com/news/124)
 
 # Aggregators
 
@@ -41,3 +59,5 @@ tags:
 - [Rust Reddit](https://www.reddit.com/r/rust/)
 
 - [Planet Haskell](http://planet.haskell.org/)
+
+- [Recurse Center - Joy of computing](https://joy.recurse.com/)
