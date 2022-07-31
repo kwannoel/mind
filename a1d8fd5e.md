@@ -46,6 +46,8 @@ tags:
 
 - [Antirez](http://antirez.com/news/124)
 
+- [Csaba Hruska (GRIN Compiler)](https://www.patreon.com/csaba_hruska/posts)
+
 # Aggregators
 
 - [Haskell weekly](https://haskellweekly.news/)
