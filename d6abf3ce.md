@@ -15,7 +15,7 @@ Plutus IR compiler: Plutus IR -> Typed Plutus Core -- Can we target this instead
 Type eraser: Typed Plutus Core -> Untyped Plutus Core
 ```
 
-<200db23e>
+[[200db23e]]
 
 https://iohk.io/en/blog/posts/2021/02/02/plutus-tx-compiling-haskell-into-plutus-core/
 

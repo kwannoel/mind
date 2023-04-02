@@ -6,4 +6,4 @@ tags:
 
 # Interaction between OS and process
 
-<356d303d>
+[[356d303d]]

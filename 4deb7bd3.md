@@ -15,7 +15,7 @@ tags:
   To different components what needs to be done, 
   according to what instruction declares.
   
-  These fall under <f2b00462> 
+  These fall under [[f2b00462]] 
 
 ## Perform the following operations:
 
@@ -23,5 +23,5 @@ tags:
   - Logical
   - Memory
   
-  These fall under <36d3e38e> .
+  These fall under [[36d3e38e]] .
   

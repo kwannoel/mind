@@ -6,5 +6,5 @@ tags:
 
 # What is the architecture of Casper Network?
 
-<e592ce35>
-<a65b08c7>
+[[e592ce35]]
+[[a65b08c7]]

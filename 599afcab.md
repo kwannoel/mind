@@ -6,30 +6,30 @@ tags:
 
 # Glow development log
 
-<f494d612>
+[[f494d612]]
 
-<791b04e6>
+[[791b04e6]]
 
 ## Things I need to find answers to
 
-<03a78253>
+[[03a78253]]
 
-<081c1a30>
+[[081c1a30]]
 
-<6ca54479>
+[[6ca54479]]
 
-<0084bf4d>
+[[0084bf4d]]
 
-<9e16753e>
+[[9e16753e]]
 
-<9145386f>
+[[9145386f]]
 
-<67ab6abb>
+[[67ab6abb]]
 
-<ff1fbc96>
+[[ff1fbc96]]
 
 ## More readings
 
-<c9c066cc>
+[[c9c066cc]]
 
-<dbed683c>
+[[dbed683c]]

@@ -61,18 +61,18 @@ snapshot release, link to it via canvas.
 
 ## Notes
 
-<a37c8179>
+[[a37c8179]]
 
-<de73b77c>
+[[de73b77c]]
 
-<b69eb884>
+[[b69eb884]]
 
-<f1f0e7be>
+[[f1f0e7be]]
 
-<e2649b89>
+[[e2649b89]]
 
-<4da4d8ea>
+[[4da4d8ea]]
 
-<a696d63f>
+[[a696d63f]]
 
-<79a1a92c>
+[[79a1a92c]]

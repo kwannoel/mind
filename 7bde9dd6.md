@@ -6,9 +6,9 @@ tags:
 
 # What is the difference between concurrency and parallelism?
 
-<d1ab5193> - Things happening within the overlapping time periods.
+[[d1ab5193]] - Things happening within the overlapping time periods.
 
-<01dbfbdd> - Things happening simultaneously.
+[[01dbfbdd]] - Things happening simultaneously.
 
 ## Example driven explanation
 

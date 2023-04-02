@@ -6,5 +6,5 @@ tags:
 
 # YSC4230 Lecture 6
 
-<1676c3fb>
+[[1676c3fb]]
 

@@ -11,7 +11,7 @@ While reading through  [What a Jane Street software engineering interview is lik
 
 We were implementing memoization, using a HashMap. A memory leak could occur if the cache was unbound.
 
-Hence we bound the cache, and use a <75aa390d>  policy.
+Hence we bound the cache, and use a [[75aa390d]]  policy.
 
 Hence we need to maintain ordering. We want to do this in O(1) time.
 

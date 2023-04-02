@@ -16,9 +16,9 @@ We can think of pipe as an anonymous file that residese between 2 processes.
 
 One process writes bytes to the pipe, the other reads.
 
-<31ed8360>
+[[31ed8360]]
 
-<4d4b1bf6>
+[[4d4b1bf6]]
 
 # Implement
 

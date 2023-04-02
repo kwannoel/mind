@@ -5,40 +5,40 @@ date: "2020-08-10"
 
 Analysis refers to prediction without having to run the algorithm
 
-<6e6233f8>
+[[6e6233f8]]
 
-<193c5a7f>
+[[193c5a7f]]
 
-<bab0752c>
+[[bab0752c]]
 
-<0eceb5eb>
+[[0eceb5eb]]
 
-<20ca7f5c>
+[[20ca7f5c]]
 
-<18736012>
+[[18736012]]
 
-<12177bbe>
+[[12177bbe]]
 
-<3169c67c>
+[[3169c67c]]
 
-<9d7c1db2>
+[[9d7c1db2]]
 
-<6a6bf146>
+[[6a6bf146]]
 
-<fc20e943>
+[[fc20e943]]
 
-<72f5bb77>
+[[72f5bb77]]
 
-<29f8a8f3>
+[[29f8a8f3]]
 
-<39bb38e4>
+[[39bb38e4]]
 
-<c95f2c9c>
+[[c95f2c9c]]
 
-<0d6a9713>
+[[0d6a9713]]
 
-<258f412e>
+[[258f412e]]
 
-<6c53ddc4>
+[[6c53ddc4]]
 
-<4d470b10>
+[[4d470b10]]

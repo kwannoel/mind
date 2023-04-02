@@ -13,18 +13,18 @@ tags:
 
 ## Log
 
-<9843048a>
+[[9843048a]]
 
-What are the differences: <c44a3549>
+What are the differences: [[c44a3549]]
 
-When to use strict: <d6f0dcb0> 
+When to use strict: [[d6f0dcb0]] 
 
-<f15c9b27>
+[[f15c9b27]]
 
-<d4ef95a0>
+[[d4ef95a0]]
 
-What is an <7da1282d> 
+What is an [[7da1282d]] 
 
-What are the <cd6ee954> 
+What are the [[cd6ee954]] 
 
-How can we perform <b472eb93> in a strict language?
+How can we perform [[b472eb93]] in a strict language?

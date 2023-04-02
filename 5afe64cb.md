@@ -12,6 +12,6 @@ Thread scheduling, instead of process scheduling.
 
 Kernel may make use of threads for its own execution
 
-What are the <2b0e6213> ?
+What are the [[2b0e6213]] ?
 
-What are the <72f0ad04> ?
+What are the [[72f0ad04]] ?

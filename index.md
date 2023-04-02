@@ -11,15 +11,15 @@ I write things down here :)
 
 - [**previous blog**](https://kwannoel.github.io/thoughts/)
 
-- <e4816443>
+- [[e4816443]]
 
-- <e066dc7f> 
+- [[e066dc7f]] 
 
 - [**knowledge base**](https://kwannoel.xyz/search.html)
 
-- <a1d8fd5e> 
+- [[a1d8fd5e]] 
 
-- <f2beeaf4> 
+- [[f2beeaf4]] 
 
 ### Contact
 

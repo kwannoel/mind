@@ -8,5 +8,5 @@ tags:
 
 Early termination
 
-idf ordered terms (see: <7bcc7b75> )
+idf ordered terms (see: [[7bcc7b75]] )
 

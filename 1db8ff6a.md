@@ -8,9 +8,9 @@ tags:
 
 ## Tips
 
-<bb3f49e8>
+[[bb3f49e8]]
 
-<ae929f11>
+[[ae929f11]]
 
 - Remove work space distractions. Ritualize this process.
   - Cleanup your workspace
@@ -40,6 +40,6 @@ tags:
 ## Resources
 
 Alternate between:
-- <85c7d7a9>
-- <2b22f72f>
-- <7a084ea1> 
+- [[85c7d7a9]]
+- [[2b22f72f]]
+- [[7a084ea1]] 

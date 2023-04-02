@@ -6,7 +6,7 @@ tags:
 
 # object file .o / .obj
 
-It contains <d95485e2>. The code is not directly executable as there is position-dependent code.
+It contains [[d95485e2]]. The code is not directly executable as there is position-dependent code.
 
 This means that parts of these need to be relocated.
 

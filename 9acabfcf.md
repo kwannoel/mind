@@ -10,7 +10,7 @@ We want to allow arbitrary structured data to be included on-chain.
 
 Transactions can contain metadata.
 
-It is kept outside of transaction body, like <9e8c13a6>.
+It is kept outside of transaction body, like [[9e8c13a6]].
 
 No data added to ledger state.
 

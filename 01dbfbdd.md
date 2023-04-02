@@ -10,4 +10,4 @@ Running simultaneously.
 
 Supported on hardware level with processor cores.
 
-Cores can support multiple hardware thread: <a5b950b6>
+Cores can support multiple hardware thread: [[a5b950b6]]

@@ -13,6 +13,6 @@ socket analagous to door
 - sending process shoves message out door. -> some agent helps you to deliver
 - sending process relies on transport infrastructure on other side of door to deliver message to socket at receiving process.
 
-<2dbdeb1a>
+[[2dbdeb1a]]
 
-<03b34dff>
+[[03b34dff]]

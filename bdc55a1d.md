@@ -6,11 +6,11 @@ tags:
 
 # Memory orders
 
-<81ea56b9>
+[[81ea56b9]]
 
-<47eba19f>
+[[47eba19f]]
 
-<0597b083>
+[[0597b083]]
 
 ## How they interact amongst themselves
 

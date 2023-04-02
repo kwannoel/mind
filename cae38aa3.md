@@ -16,7 +16,7 @@ Add more threads of control to the same process.
 
 Multiple parts of the programs execute at the same time conceptually.
 
-<48534004>
+[[48534004]]
 
 ## OS Threads / Kernel thread
 
@@ -40,4 +40,4 @@ They are managed by userspace, this could be a library or the language runtime.
 
 # Reference
 
-<7a1faaeb>
+[[7a1faaeb]]

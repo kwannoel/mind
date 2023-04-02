@@ -14,8 +14,8 @@ For branching we need to calculate:
 
 2. Where does it branch to?
 
-Instead of just one outcome like in <4ea82e49>  and <2355011b> .
+Instead of just one outcome like in [[4ea82e49]]  and [[2355011b]] .
 
-We shall see how this can be done in the <c7317dfc> stage.
+We shall see how this can be done in the [[c7317dfc]] stage.
 
 

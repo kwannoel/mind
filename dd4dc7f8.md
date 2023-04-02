@@ -6,8 +6,8 @@ tags:
 
 # How to make index construction scalable?
 
-<afdd5eec> - simplest
+[[afdd5eec]] - simplest
 
-<27c32fb0> - more practical
+[[27c32fb0]] - more practical
 
-<11d9e13b> - most efficient
+[[11d9e13b]] - most efficient

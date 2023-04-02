@@ -6,4 +6,4 @@ tags:
 
 # How to target plutus core?
 
-<b782c0a0>
+[[b782c0a0]]

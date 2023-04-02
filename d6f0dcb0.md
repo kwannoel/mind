@@ -10,5 +10,5 @@ Arguments evaluated first.
 
 Easier to reason about asymptotic complexity.
 
-<dddccb38>
+[[dddccb38]]
 

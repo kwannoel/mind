@@ -51,9 +51,9 @@ It allows us to apply a function `a -> m b` to a value, `a` within a context `m`
 So where is this pattern useful?
 
 Some examples:
-- <2af0d82f> (To write values)
-- <8a11e368> (To read values)
-- <370e62ed> (I can do both!)
+- [[2af0d82f]] (To write values)
+- [[8a11e368]] (To read values)
+- [[370e62ed]] (I can do both!)
 
 References:
 [Bartosz milewski - Monads](https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/)

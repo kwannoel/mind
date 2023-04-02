@@ -6,5 +6,5 @@ tags:
 
 # How to perform indexing if data is dynamic?
 
-<7bde3266>
+[[7bde3266]]
 

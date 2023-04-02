@@ -6,13 +6,13 @@ tags:
 
 # Operating Process Communication
 
-<44e351f5>
+[[44e351f5]]
 
-<410f9bf1>
+[[410f9bf1]]
 
-<bce70b7e>
+[[bce70b7e]]
 
-<5c986109>
+[[5c986109]]
 
 # Difficulties
 

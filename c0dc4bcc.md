@@ -36,8 +36,8 @@ e.g. retreat.
 
 ## Uses
 
-<4932ce0c>
-<b376658c>
+[[4932ce0c]]
+[[b376658c]]
 
 ## Reference
 

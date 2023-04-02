@@ -9,7 +9,7 @@ Use to represent common parts of subclasses.
 
 For instance, `Animal` class can exist as an abstract class of `Cat`, `Dog`, `Horse`, `Tiger`...
 
-If a class has an <c21c73c7> it becomes an abstract class since it is impossible to create objects with an incomplete class definition.
+If a class has an [[c21c73c7]] it becomes an abstract class since it is impossible to create objects with an incomplete class definition.
 
 Their `type` can be *referenced*.
 

@@ -13,7 +13,7 @@ tags:
   
 ## How is mapping done? 
 
-<74060f2b>
+[[74060f2b]]
   
 Mapping is done with page tables and translation look-aside buffers (TLBs).
 
@@ -21,9 +21,9 @@ Mapping is done with page tables and translation look-aside buffers (TLBs).
 
   A natural question is how we can ensure that a process does not accidentally overwrite a physical memory address which is in use.
 
- <ba20d21a> 
+ [[ba20d21a]] 
 
-## Can we further <1fefce99> ?
+## Can we further [[1fefce99]] ?
 
   A processes' memory consumption is large. Context switching between processes will be costly.
 

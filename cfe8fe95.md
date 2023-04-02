@@ -32,7 +32,7 @@ You can then amend it, setting it to register e, such that it can be invoked wit
    (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ("@z@x" 0 "%d")) arg)))
 ```
 
-And finally <666d8f4d> 
+And finally [[666d8f4d]] 
 Alternatively you can paste all of these into a emacs buffer and run `M-x eval-buffer`
 
 References:

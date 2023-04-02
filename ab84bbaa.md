@@ -12,12 +12,12 @@ Operators will pop off operands from the stack, and push results back on to the 
 
 Hence the program occurs procedurally.
 
-But wait...<8266085e> 
+But wait...[[8266085e]] 
 
-<396d34ea>
+[[396d34ea]]
 
-<50319f1a>
+[[50319f1a]]
 
-<4017c161>
+[[4017c161]]
 
-<c44aeeff>
+[[c44aeeff]]

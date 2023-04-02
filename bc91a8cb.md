@@ -6,16 +6,16 @@ tags:
 
 # Operating systems overview
 
-<d160e4d2>
+[[d160e4d2]]
 
-<14c6b6aa>
+[[14c6b6aa]]
 
-<e9cdd35c>
+[[e9cdd35c]]
 
-<214a1daf>
+[[214a1daf]]
 
-<776f5267>
+[[776f5267]]
 
-<a6c6c071>
+[[a6c6c071]]
 
-<19f8dd9d>
+[[19f8dd9d]]
