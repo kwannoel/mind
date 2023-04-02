@@ -30,7 +30,7 @@ impl Sphere {
   let metal_shiny = Box::new(Metal::new(0.0));
   let sphere1 = Sphere::new(metal_shiny)
   let sphere2 = Sphere::new(metal_shiny);
-}</code></pre><p>Since <code>Box</code> pointers provided exclusive &lt;944d4e0e&gt; to the <code>material</code> used, the material object couldn’t be referenced in the struct fields of other objects.</p><p>Since I only needed read access to materials, and shared ownership to the <code>material</code>, I could use <code>std::Rc</code> to wrap the trait instead:</p><pre><code class="rs language-rs">// rustc use-rc.rs
+}</code></pre><p>Since <code>Box</code> pointers provided exclusive <span class="zettel-link-container cf"><span class="zettel-link" title="2020-07-11"><a href="944d4e0e.html">Rust ownership</a></span></span> to the <code>material</code> used, the material object couldn’t be referenced in the struct fields of other objects.</p><p>Since I only needed read access to materials, and shared ownership to the <code>material</code>, I could use <code>std::Rc</code> to wrap the trait instead:</p><pre><code class="rs language-rs">// rustc use-rc.rs
 use std::rc::Rc;
 
 pub trait Material {
